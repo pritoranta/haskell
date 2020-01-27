@@ -12,7 +12,7 @@ merge (x:xs)(y:ys)
  | x < y = x : merge xs (y:ys)
  | otherwise = y : merge (x:xs) ys
 
--- merge sort
+-- merge sort, ascending order
 mergeSort :: Ord a => [a] -> [a]
 mergeSort [] = []
 mergeSort [x] = [x]
