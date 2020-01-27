@@ -1,3 +1,4 @@
+-- WARNING! very ineffective
 -- the nth element of the fibonacci sequence
 fib :: Int -> Int
 fib n = case n of
